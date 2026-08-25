@@ -154,9 +154,7 @@ public class Main {
             confirm = scanner.next();
         }
 
-        if(confirm.equalsIgnoreCase("sim")){
-            board.reset();
-        }
+        if(confirm.equalsIgnoreCase("sim"))board.reset();
     }
 
     private static void finishGame() {
